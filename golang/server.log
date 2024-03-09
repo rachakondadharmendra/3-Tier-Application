@@ -1,0 +1,186 @@
+2024/03/07 14:33:00 main.go:74: Server is running on port 8080...
+2024/03/07 14:33:25 main.go:215: Data deleted successfully
+2024/03/07 14:33:42 main.go:148: Data retrieved successfully
+2024/03/07 14:34:00 main.go:105: Data inserted: {RowNumber:3 Name:Hey man Email:john@example.com Message:Hello, world! Status:false}
+2024/03/07 14:34:00 main.go:110: Data inserted successfully
+2024/03/07 14:34:40 main.go:148: Data retrieved successfully
+2024/03/07 14:35:46 main.go:185: Data updated: {RowNumber:0 Name:Hey man Email:john@example.com Message:Hey, world! Status:false}
+2024/03/07 14:35:46 main.go:190: Data updated successfully
+2024/03/07 14:35:56 main.go:148: Data retrieved successfully
+2024/03/07 14:39:22 main.go:74: Server is running on port 8080...
+2024/03/07 14:40:23 main.go:185: [Mar  7 14:40:23] Data updated: {RowNumber:0 Name:Hey man Email:john@example.com Message:Hey, world! Status:true}
+2024/03/07 14:40:23 main.go:190: Data updated successfully
+2024/03/07 14:41:14 main.go:148: Data retrieved successfully
+2024/03/07 14:47:16 main.go:75: Server is running on port 8080...
+2024/03/07 14:47:34 main.go:169: Invalid ObjectID: the provided hex string is not a valid ObjectID
+2024/03/07 14:47:50 main.go:169: Invalid ObjectID: the provided hex string is not a valid ObjectID
+2024/03/07 15:17:36 main.go:79: Server is running on port 8080...
+2024/03/07 15:19:35 main.go:105: [Mar  7 15:19:35] Data inserted: {ID:ObjectID("000000000000000000000000") UniqueID:000010324 Name:Hey man Email:john@example.com Message:Hey, world! Status:true}
+2024/03/07 15:19:35 main.go:110: Data inserted successfully
+2024/03/07 15:19:47 main.go:148: Data retrieved successfully
+2024/03/07 15:21:42 main.go:148: Data retrieved successfully
+2024/03/07 15:22:29 main.go:180: [Mar  7 15:22:29] Data updated: {ID:ObjectID("000000000000000000000000") UniqueID: Name:Hulk Email:john@Hulk.com Message:Hey, Hulk! Status:true}
+2024/03/07 15:22:29 main.go:185: Data updated successfully
+2024/03/07 15:22:40 main.go:148: Data retrieved successfully
+2024/03/07 15:23:21 main.go:180: [Mar  7 15:23:21] Data updated: {ID:ObjectID("000000000000000000000000") UniqueID: Name:Jane Doe Email:jane@example.com Message:Hello, Golang! Status:false}
+2024/03/07 15:23:21 main.go:185: Data updated successfully
+2024/03/07 15:23:44 main.go:148: Data retrieved successfully
+2024/03/07 15:24:16 main.go:203: [Mar  7 15:24:16] Data deleted with uniqueId: 000010324
+2024/03/07 15:24:16 main.go:208: Data deleted successfully
+2024/03/07 15:24:24 main.go:148: Data retrieved successfully
+2024/03/07 15:26:51 main.go:203: [Mar  7 15:26:51] Data deleted with uniqueId: 000010324
+2024/03/07 15:26:51 main.go:208: Data deleted successfully
+2024/03/07 15:26:59 main.go:148: Data retrieved successfully
+2024/03/07 15:29:19 main.go:79: Server is running on port 8080...
+2024/03/07 15:29:27 main.go:194: Attempting to delete data with uniqueId: 000010324
+2024/03/07 15:29:29 main.go:206: [Mar  7 15:29:29] Data deleted with uniqueId: 000010324
+2024/03/07 15:29:29 main.go:211: Data deleted successfully
+2024/03/07 15:29:39 main.go:148: Data retrieved successfully
+2024/03/07 15:35:16 main.go:79: Server is running on port 8080...
+2024/03/07 15:35:38 main.go:203: [Mar  7 15:35:38] Data deleted with uniqueId: 000010324
+2024/03/07 15:35:38 main.go:208: Data deleted successfully
+2024/03/07 15:35:46 main.go:148: Data retrieved successfully
+2024/03/07 15:35:46 main.go:148: Data retrieved successfully
+2024/03/07 15:35:47 main.go:148: Data retrieved successfully
+2024/03/07 15:35:48 main.go:148: Data retrieved successfully
+2024/03/07 15:35:50 main.go:148: Data retrieved successfully
+2024/03/07 15:40:58 main.go:79: Server is running on port 8080...
+2024/03/07 15:41:09 main.go:212: No document found with uniqueId: 000010324
+2024/03/07 15:41:36 main.go:79: Server is running on port 8080...
+2024/03/07 15:41:48 main.go:203: [Mar  7 15:41:48] Data deleted with uniqueId: 000010324
+2024/03/07 15:41:48 main.go:208: Data deleted successfully
+2024/03/07 15:41:56 main.go:148: Data retrieved successfully
+2024/03/07 15:44:05 main.go:148: Data retrieved successfully
+2024/03/07 15:45:37 main.go:79: Server is running on port 8080...
+2024/03/07 15:45:42 main.go:212: No document found with uniqueId: 000010324
+2024/03/07 15:48:56 main.go:105: [Mar  7 15:48:56] Data inserted: {ID:ObjectID("000000000000000000000000") UniqueID:000010324 Name:my Doe Email:jane@example.com Message:hi, Golang! Status:false}
+2024/03/07 15:48:56 main.go:110: Data inserted successfully
+2024/03/07 15:49:07 main.go:148: Data retrieved successfully
+2024/03/07 15:49:51 main.go:105: [Mar  7 15:49:51] Data inserted: {ID:ObjectID("000000000000000000000000") UniqueID:000020324 Name:my Doe Email:jane@example.com Message:hi, Golang! Status:false}
+2024/03/07 15:49:51 main.go:110: Data inserted successfully
+2024/03/07 15:49:59 main.go:148: Data retrieved successfully
+2024/03/07 16:00:09 main.go:77: Server is running on port 8080...
+2024/03/07 16:01:58 main.go:103: [Mar  7 16:01:58] Data inserted: {UniqueID:000000000001 Name:John Doe Email:john@example.com Message:This is a sample message Status:true}
+2024/03/07 16:01:58 main.go:108: Data inserted successfully
+2024/03/07 16:02:15 main.go:146: Data retrieved successfully
+2024/03/07 16:03:07 main.go:178: [Mar  7 16:03:07] Data updated: {UniqueID: Name:John Doe Email:john@example.com Message:This is an updated message Status:false}
+2024/03/07 16:03:07 main.go:183: Data updated successfully
+2024/03/07 16:03:17 main.go:146: Data retrieved successfully
+2024/03/07 16:03:41 main.go:201: [Mar  7 16:03:41] Data deleted with uniqueId: 000000000001
+2024/03/07 16:03:41 main.go:206: Data deleted successfully
+2024/03/07 16:19:32 main.go:77: Server is running on port 8080...
+2024/03/07 16:21:03 main.go:179: [Mar  7 16:21:03] Data updated: {UniqueID: Name:John Doe Email:john@example.com Message:This is an updated message Status:false}
+2024/03/07 16:21:03 main.go:184: Data updated successfully
+2024/03/07 16:21:19 main.go:146: Data retrieved successfully
+2024/03/07 16:21:22 main.go:146: Data retrieved successfully
+2024/03/07 16:26:35 main.go:77: Server is running on port 8080...
+2024/03/07 16:58:55 main.go:75: Server is running on port 8080...
+2024/03/07 17:00:26 main.go:106: [Mar  7 17:00:26] Data inserted: {RowNumber:2 Name:John Doe Email:john@example.com Message:This is an updated message Status:false}
+2024/03/07 17:00:26 main.go:111: Data inserted successfully
+2024/03/07 17:00:38 main.go:149: Data retrieved successfully
+2024/03/07 17:01:19 main.go:169: Invalid ObjectID: the provided hex string is not a valid ObjectID
+2024/03/07 17:21:05 main.go:74: Server is running on port 8080...
+2024/03/07 17:21:23 main.go:176: [Mar  7 17:21:23] Data updated: {RowNumber:0 Name:John Doe Email:john@example.com Message:This is an second update message Status:false}
+2024/03/07 17:21:23 main.go:181: Data updated successfully
+2024/03/07 17:21:31 main.go:148: Data retrieved successfully
+2024/03/07 17:22:08 main.go:148: Data retrieved successfully
+2024/03/07 17:26:18 main.go:74: Server is running on port 8080...
+2024/03/07 17:26:26 main.go:74: Server is running on port 8080...
+2024/03/07 17:26:41 main.go:148: Data retrieved successfully
+2024/03/07 17:27:40 main.go:172: RowNumber in request body does not match ID parameter
+2024/03/07 17:27:51 main.go:172: RowNumber in request body does not match ID parameter
+2024/03/07 17:31:55 main.go:74: Server is running on port 8080...
+2024/03/07 17:32:48 main.go:170: URL ID: 2
+2024/03/07 17:32:48 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:32:48 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:33:03 main.go:170: URL ID: 2
+2024/03/07 17:33:03 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:33:03 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:33:04 main.go:170: URL ID: 2
+2024/03/07 17:33:04 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:33:04 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:38:58 main.go:74: Server is running on port 8080...
+2024/03/07 17:39:10 main.go:170: URL ID: 1
+2024/03/07 17:39:10 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:39:10 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:39:12 main.go:170: URL ID: 1
+2024/03/07 17:39:12 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:39:12 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:39:13 main.go:170: URL ID: 1
+2024/03/07 17:39:13 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:39:13 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:39:14 main.go:170: URL ID: 1
+2024/03/07 17:39:14 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:39:14 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:39:16 main.go:170: URL ID: 1
+2024/03/07 17:39:16 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:39:16 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:39:17 main.go:170: URL ID: 1
+2024/03/07 17:39:17 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:39:17 main.go:176: RowNumber in request body does not match ID parameter
+2024/03/07 17:45:43 main.go:74: Server is running on port 8080...
+2024/03/07 17:45:49 main.go:170: URL ID: 1
+2024/03/07 17:45:49 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:45:50 main.go:170: URL ID: 1
+2024/03/07 17:45:50 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:45:50 main.go:194: No document found with ID: 1
+2024/03/07 17:45:51 main.go:194: No document found with ID: 1
+2024/03/07 17:45:53 main.go:170: URL ID: 1
+2024/03/07 17:45:53 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:45:53 main.go:194: No document found with ID: 1
+2024/03/07 17:46:02 main.go:170: URL ID: 1
+2024/03/07 17:46:02 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:46:02 main.go:194: No document found with ID: 1
+2024/03/07 17:50:51 main.go:74: Server is running on port 8080...
+2024/03/07 17:51:02 main.go:170: URL ID: 1
+2024/03/07 17:51:02 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:51:02 main.go:186: Filter details: map[rowNumber:1]
+2024/03/07 17:51:04 main.go:198: rowNumber: 0, id: 1
+2024/03/07 17:51:04 main.go:201: No document found with ID: 1
+2024/03/07 17:51:05 main.go:170: URL ID: 1
+2024/03/07 17:51:05 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:51:05 main.go:186: Filter details: map[rowNumber:1]
+2024/03/07 17:51:05 main.go:198: rowNumber: 0, id: 1
+2024/03/07 17:51:05 main.go:201: No document found with ID: 1
+2024/03/07 17:51:06 main.go:170: URL ID: 1
+2024/03/07 17:51:06 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:51:06 main.go:186: Filter details: map[rowNumber:1]
+2024/03/07 17:51:06 main.go:198: rowNumber: 0, id: 1
+2024/03/07 17:51:06 main.go:201: No document found with ID: 1
+2024/03/07 17:51:07 main.go:170: URL ID: 1
+2024/03/07 17:51:07 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:51:07 main.go:186: Filter details: map[rowNumber:1]
+2024/03/07 17:51:08 main.go:198: rowNumber: 0, id: 1
+2024/03/07 17:51:08 main.go:201: No document found with ID: 1
+2024/03/07 17:51:09 main.go:170: URL ID: 1
+2024/03/07 17:51:09 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:51:09 main.go:186: Filter details: map[rowNumber:1]
+2024/03/07 17:51:09 main.go:198: rowNumber: 0, id: 1
+2024/03/07 17:51:09 main.go:201: No document found with ID: 1
+2024/03/07 17:51:10 main.go:170: URL ID: 1
+2024/03/07 17:51:10 main.go:171: Request Body RowNumber: 0
+2024/03/07 17:51:10 main.go:186: Filter details: map[rowNumber:1]
+2024/03/07 17:51:10 main.go:198: rowNumber: 0, id: 1
+2024/03/07 17:51:10 main.go:201: No document found with ID: 1
+2024/03/07 17:51:43 main.go:74: Server is running on port 8080...
+2024/03/08 08:13:27 main.go:74: Server is running on port 8080...
+2024/03/08 08:13:31 main.go:74: Server is running on port 8080...
+2024/03/09 14:37:55 main.go:77: Server is running on port 8080...
+2024/03/09 15:03:04 main.go:74: Server is running on port 8080...
+2024/03/09 15:03:54 main.go:118: Error retrieving data from MongoDB: server selection error: server selection timeout, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: ac-xtoba72-shard-00-02.72kc00x.mongodb.net:27017, Type: Unknown, Last error: remote error: tls: internal error }, { Addr: ac-xtoba72-shard-00-00.72kc00x.mongodb.net:27017, Type: Unknown, Last error: remote error: tls: internal error }, { Addr: ac-xtoba72-shard-00-01.72kc00x.mongodb.net:27017, Type: Unknown, Last error: remote error: tls: internal error }, ] }
+2024/03/09 15:04:59 main.go:118: Error retrieving data from MongoDB: server selection error: server selection timeout, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: ac-xtoba72-shard-00-02.72kc00x.mongodb.net:27017, Type: Unknown, Last error: remote error: tls: internal error }, { Addr: ac-xtoba72-shard-00-00.72kc00x.mongodb.net:27017, Type: Unknown, Last error: remote error: tls: internal error }, { Addr: ac-xtoba72-shard-00-01.72kc00x.mongodb.net:27017, Type: Unknown, Last error: remote error: tls: internal error }, ] }
+2024/03/09 15:09:21 main.go:148: Data retrieved successfully
+2024/03/09 15:12:46 main.go:148: Data retrieved successfully
+2024/03/09 15:13:25 main.go:148: Data retrieved successfully
+2024/03/09 15:13:25 main.go:148: Data retrieved successfully
+2024/03/09 15:13:25 main.go:148: Data retrieved successfully
+2024/03/09 15:14:00 main.go:148: Data retrieved successfully
+2024/03/09 15:14:01 main.go:148: Data retrieved successfully
+2024/03/09 15:14:01 main.go:148: Data retrieved successfully
+2024/03/09 15:14:10 main.go:148: Data retrieved successfully
+2024/03/09 15:14:11 main.go:148: Data retrieved successfully
+2024/03/09 15:14:11 main.go:148: Data retrieved successfully
+2024/03/09 15:14:45 main.go:148: Data retrieved successfully
+2024/03/09 15:17:33 main.go:148: Data retrieved successfully
+2024/03/09 15:31:18 main.go:82: Server is running on port 8080...
+2024/03/09 15:31:41 main.go:162: Data retrieved successfully
