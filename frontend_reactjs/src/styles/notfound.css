@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,700,800");
+
+/** Styles for the 403 Page **/
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1F2235;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+  }
+
+.denied__wrapper {
+  max-width: 390px;
+  width: 100%;
+  height: 390px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.permission_denied h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.permission_denied h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 19px;
+  line-height: 23px;
+  max-width: 330px;
+  margin: 0px auto 30px auto;
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+}
+
+.permission_denied h3 span {
+  position: relative;
+  width: 65px;
+  display: inline-block;
+}
+
+.permission_denied h3 span:after {
+  content: "";
+  border-bottom: 3px solid #ffbb39;
+  position: absolute;
+  left: 0;
+  top: 43%;
+  width: 100%;
+}
+
+.denied__link {
+  background: none;
+  color: #fff;
+  padding: 12px 0px 10px 0px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 7px;
+  width: 150px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-top: 250px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  z-index: 1;
+  position: relative;
+}
+
+.denied__link:hover {
+  color: #ffbb39;
+  border-color: #ffbb39;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.permission_denied .stars {
+  animation: sparkle 1.6s infinite ease-in-out alternate;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+#planet {
+  width: 310px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 190px;
+  z-index: 0;
+   
+}
+
+#astronaut {
+  width: 43px;
+  position: absolute;
+  right: 50px;
+  top: 240px;
+  animation: spin 4.5s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .permission_denied h1 {
+    font-size: 75px;
+  }
+  .permission_denied h3 {
+    font-size: 16px;
+    width: 200px;
+    margin: 0 auto;
+    line-height: 23px;
+  }
+  .permission_denied h3 span {
+    width: 60px;
+  }
+  #astronaut {
+    width: 35px;
+    right: 40px;
+    top: 170px;
+  }
+}
+
+.saturn,
+.saturn-2,
+.hover {
+  animation: hover 2s infinite ease-in-out alternate;
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}
+
+/* Updated CSS for dust particles animation */
+.permission_denied {
+  position: relative;
+  overflow: hidden; /* Ensure particles don't overflow */
+}
+
+.dust-particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+  animation: moveDust 15s linear infinite, fadeOut 15s linear infinite; /* Adjust animation duration as needed */
+  border-radius: 50%;
+}
+
+/* Additional particles */
+.dust-particle:nth-of-type(2) {
+  left: 20%;
+  top: 30%;
+}
+
+.dust-particle:nth-of-type(3) {
+  left: 40%;
+  top: 60%;
+}
+
+.dust-particle:nth-of-type(4) {
+  left: 60%;
+  top: 10%;
+}
+
+.dust-particle:nth-of-type(5) {
+  left: 80%;
+  top: 50%;
+}
+
+@keyframes moveDust {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  100% {
+    transform: translateY(-200vh) translateX(200vw) scale(0.2);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+

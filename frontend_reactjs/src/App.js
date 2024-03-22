@@ -1,23 +1,43 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './styles/main.css';
-import './styles/admin.css';
+
 
 import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
-import AdminPage from './components/AdminPage';
+import AdminPage from './components/Admin/AdminPage';
+import SuperAdmin from './components/Superadmin/SuperAdmin';
+import NotFoundPage from './components/NotFoundPage';
+
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
         <Routes>
-          <Route path="/" element={<Content />} />
-          <Route path="/admin" element={<AdminPage />} />
+          <Route path="/" element={
+            <>
+              <Header />
+              <Content />
+              <Footer />
+            </>
+          } />
+          <Route path="/admin" element={
+            <>
+              <Header />
+              <AdminPage />
+              <Footer />
+            </>
+          } />
+          <Route path="/superadmin" element={
+            <>
+              <Header />
+              <SuperAdmin />
+              <Footer />
+            </>
+          } />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );

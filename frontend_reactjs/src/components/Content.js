@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import { postData } from './CrudApi'; 
-const imageUrl = `${process.env.REACT_APP_IMAGE_FOLDER_PATH}`;
-console.log(imageUrl);
+import { postData } from '../utils/CrudApi'; 
+import '../styles/main.css';
 
+const imageUrl = `${process.env.REACT_APP_IMAGE_FOLDER_PATH}`;
+
+// Content Component
 function Content() {
   const [formData, setFormData] = useState({
     name: '',
@@ -11,10 +13,13 @@ function Content() {
     message: '',
   });
   const [submissionStatus, setSubmissionStatus] = useState(null);
+
+  // Handle form input changes
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  }; 
 
+  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
   
@@ -26,7 +31,7 @@ function Content() {
       try {
         // Send data to the backend using postData function
         await postData({ ...formData, status: true });
-        console.log('Message sent successfully');
+        console.info('Message sent successfully');
         // Clear form fields after successful submission
         setFormData({
           name: '',
@@ -43,12 +48,11 @@ function Content() {
     }
   };
   
-  
   return (
     <main>
       <section id="home">
         <div className="profile">
-          <h1>Welcome to my <span className="portfolio-static">Portfolio</span></h1>
+          <h1>Welcome to my  <span className="portfolio-static">Portfolio</span></h1>
           <p>I am a skilled DevOps engineer with a passion for automating and streamlining software development and deployment processes. With years of experience in various industries, I excel at bridging the gap between development and operations teams.</p>
           <div className="social-links">
             <a href="https://www.linkedin.com/in/rachakonda-dharmendra/" target="_blank" rel="noreferrer">
@@ -168,8 +172,9 @@ function Content() {
       <section id="contact">
         <div className="contact-container">
           <div className="contact-image">
-            <img src={`${imageUrl}/getintouch_image.jpg`} alt="Contact Image" />
+            <img src={`${imageUrl}/getintouch_image.jpg`} alt="ContactImage" />
           </div>
+          {/* Conditional rendering based on submission status */}
           {submissionStatus !== 'success' ? (
           <div className="contact-form">
             <h2 className="section-title animate-text">Get in Touch</h2>
@@ -207,8 +212,8 @@ function Content() {
             <p>Thank you! Your message has been sent successfully.</p>
           </div>
          )}
-</div>
-</section>
+        </div>
+      </section>
     </main>
   );
 }

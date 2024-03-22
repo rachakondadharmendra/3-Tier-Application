@@ -12,17 +12,79 @@
     background-color: #1F2235;
     color: #fff;
   }
-  
-  /* Header styles */
-  header {
-    background: #252947;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
+
+/* Header styles */
+header {
+  background: #252947;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* Added for positioning the popup */
+
+}
+
+/* Popup container styles */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  border-radius: 5px; /* Add border-radius for curved edges */
+}
+
+/* Popup styles */
+.popup {
+  background-color: #FFC857; /* Different color for the popup */
+  color: #000; /* Adjust text color as needed */
+  padding: 5px 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+  border-radius: 10px; /* Add border-radius for curved edges */
+  font-size: 14px; 
+}
+
+.popup p {
+  margin: 0;
+}
+
+
+.popup p a:hover {
+  color: #000; /* Change color to black on hover */
+}
+
+
+.close-popup {
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  color: #555; /* Default color of "x" symbol */
+}
+
+.close-popup:hover,
+.close-popup:focus {
+  color: #240203;  /* Hover color of "x" symbol */
+  text-decoration: none; /* Remove underline on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Header styles */
+.header {
+    transition: top 0.3s ease; /* Add smooth transition */
+}
+
+.header-with-popup {
+    top: 30px; /* Adjust as needed to create space for the popup */
+}
+
+/* Other header styles remain the same */
+
   .logo-text {
     font-size: 24px;
     font-weight: bold;
@@ -127,7 +189,7 @@
   
   /* Main content styles */
   main {
-    max-width: 800px;
+    max-width: 820px;
     margin: 0 auto;
     padding: 20px;
   }

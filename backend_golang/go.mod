@@ -18,3 +18,10 @@ require (
 	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 )
+
+replace (
+    backend_golang/src/db => ./src/db
+    backend_golang/src/models => ./src/models
+    backend_golang/src/logger => ./src/logger
+	backend_golang/src/handlers => ./src/handlers
+)

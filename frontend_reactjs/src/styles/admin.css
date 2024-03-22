@@ -11,7 +11,6 @@ header {
   padding: 20px 30px;
   text-align: center;
   margin-bottom: 20px;
-  border-radius: 15px;
 }
 
 table {
@@ -118,28 +117,31 @@ button:hover {
 .message-popup-content {
   background-color:#314c6a;
   margin: 15% auto;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50%;
-  max-width: 400px; /* Adjust the maximum width as needed */
+  max-width: 1000px; /* Adjust the maximum width as needed */
   overflow: hidden; /* Prevent content from going outside the box */
   word-wrap: break-word;
 }
 
+
 .close {
-  color:#f2f2f7;
+  color: #aaa;
   position: absolute;
   top: 10px;
   right: 30px;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .close:hover,
 .close:focus {
-  color: #333; /* Change color on hover/focus */
+  color: #333;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* The switch - the box around the slider */

@@ -1,3 +1,5 @@
+// Footer.js
+
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
@@ -8,15 +10,15 @@ function Footer() {
         <div className="flex items-center">
           <a
             href="https://github.com/rachakondadharmendra"
-            target="Github"
             className="text-gray-700 mr-3 opacity-80 hover:opacity-100"
+            rel="noopener noreferrer"
           >
             <FaGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/rachakonda-dharmendra/"
-            target="Linkedin"
             className="text-gray-700 mr-3 opacity-80 hover:opacity-100"
+            rel="noopener noreferrer"
           >
             <FaLinkedin />
           </a>
