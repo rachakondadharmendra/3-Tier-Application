@@ -1,0 +1,15 @@
+[[rules]]
+description = "MongoDB Root Username in .env"
+regex = '''(?i)(MONGO_INITDB_ROOT_USERNAME=)([^\s]+)'''
+tags = ["mongodb_rootuser", "username"]
+
+[[rules]]
+description = "MongoDB Root Password in .env"
+regex = '''(?i)(MONGO_INITDB_ROOT_PASSWORD=)([^\s]+)'''
+tags = ["mongodb_rootuser", "password"]
+
+
+[[rules]]
+description = "Generic Secret in .env"
+regex = '''(?i)(.*=.+secret.+)'''
+tags = ["secret"]
