@@ -7,7 +7,7 @@ pipeline {
     
     environment {
         REGION='ap-south-2'
-        ECR_REPOSITORY='golang-ecr'
+        ECR_REPOSITORY='go-lang-ecr'
         AWS_ACCOUNT_ID='079711632559'
     }
     
